@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-  background: #f0f0f0;
+  background: #ffffff;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-align: left;
@@ -35,10 +35,6 @@ a:hover {
   font-weight: bold;
 }
 
-#clearfix {
-  clear: both;
-}
-
 
 /* Header */
 
@@ -48,19 +44,16 @@ header {
   margin: 0 auto;
   background: #ffffff;
   border-bottom: 1px solid rgba(0,0,0,.25);
-  position: fixed;
-  top: 0px;
 }
 
 #inner-wrapper {
   width: 940px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #logo {
-  width: 50%;
   padding-top: 25px;
-  float: left;
 }
 
 h1 {
@@ -83,51 +76,17 @@ h2 {
   display: inline-block;
 }
 
-#nav {
-  float: right;
-}
-
-#nav ul {
-  list-style-type: none;
-}
-
-  #nav ul li {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 100px;
-    float: left;
-    padding-left: 17px;
-  }
-
-  .active {
-    color: #222222;
-    padding-bottom: 2px;
-    border-bottom: 1px dotted #222222;
-  }
-
 
 /* Content */
 
 #content {
   width: 940px;
-  background: #ffffff;
-  margin: 0 auto;
-  padding: 0px 20px;
-}
-
-#content p {
-  margin-bottom: 15px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-#section-1, #section-2, #section-3 {
-  padding-top: 120px;
+  margin: 100px auto 0px auto;
 }
 
 .project {
   width: 220px;
-  height: 110px;
+  height: 180px;
   background: #cccccc;
   color: #ffffff;
   text-align: center;
@@ -135,36 +94,21 @@ h2 {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-}
-
-  .project:hover {
-    background: #eeeeee;
-    color: #aaaaaa;
-  }
-
-  .last {
-    margin-right: 0px;
-  }
-
-.back-to-top {
-  margin: 25px 0px;
-  color: #ffffff;
-  opacity: 1;
-  float: left;
-  margin-right: 20px;
-  background: #14bdd1;
-  padding: 12px 25px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  cursor: pointer;
+  overflow: hidden;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
-  .back-to-top:hover {
-    opacity: .5;
-    color: #ffffff;
+  .project img {
+    height: 100%;
+  }
+
+  .project:hover {
+    opacity: .65;
+  }
+
+  .last {
+    margin-right: 0px;
   }
